@@ -1,0 +1,123 @@
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+/* COLOR SCHEME
+* Background: #fff;
+* Font: #2b3e48;
+* Contrast: #233741;
+* Contrast Font: #f4ede2;
+* Highlight: #ff4d37;
+* Light: #eef4f6;
+*/
+
+/* GENERAL STYLE */
+body {
+  background: #fff;
+  color: #2b3e48;
+  font-family: 'Open Sans';
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+li { margin: 0.5em 0; }
+
+.remark-slide-content {
+  padding: 0.8em 2.4em;
+  font-size: 28px;
+}
+
+.remark-slide-content h1 {
+  font-size: 60px;
+}
+
+.remark-slide-number {
+  font-size: 20px;
+  color: #2b3e48;
+}
+
+/* Code */
+pre, code, .remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+  font-size: 0.8em;
+}
+.remark-inline-code {
+  background: #f0f0f0;
+  margin: 0 0.2em;
+}
+
+/* Contrast */
+.contrast {
+  background: #233741;
+  color: #f4ede2;
+}
+.contrast h1, .contrast h2, .contrast h3 {
+  color: #f4ede2;
+}
+.contrast .remark-slide-number { color: #f4ede2; }
+
+/* Multiple columns */
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.split50 { flex: 50%; }
+.split75 { flex: 75%; }
+.split25 { flex: 25%; }
+.split33 { flex: 33%; }
+
+/* Font size */
+.small { font-size: 0.8em; }
+.footnote { font-size: 0.6em; }
+
+/* Alignment */
+.floatleft { float: left; margin-right: 2em; }
+.floatright { float: right; margin-left: 2em; }
+.margin0 { margin: 0; }
+.pushup { margin: -1.5em; }
+
+/* Image width */
+.width100 img { width: 100%; }
+.width95 img { width: 95%; }
+.width90 img { width: 90%; }
+.width75 img { width: 75%; }
+.width50 img { width: 50%; }
+.width40 img { width: 40%; }
+.width25 img { width: 25%; }
+
+.caption { text-align: center; }
+
+/* Default colors */
+.highlight, .orange, { color: #ff4d37; }
+.green { color: #397300; }
+.red { color: #880000; }
+.blue { color: #1f7199; }
+.lightblue { color: #4d99bf; }
+.white { color: #FFF; }
+.black { color: #000; }
+
+/* Printing */
+/* https://github.com/gnab/remark/issues/50#issuecomment-223887379 */
+@page {
+  /* 4:3 ratio
+  size: 908px 681px;
+  */
+  /* 16:9 ratio */
+  size: 1210px 681px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
