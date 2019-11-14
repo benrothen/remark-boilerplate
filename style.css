@@ -1,7 +1,58 @@
 /* FONTS */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+/* Open Sans */
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: italic;
+  src: url('./fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+/* Yanone Kaffeesatz */
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./fonts/YanoneKaffeesatz-Bold.ttf') format('truetype');
+}
+
+/* Ubuntu Mono */
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./fonts/UbuntuMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./fonts/UbuntuMono-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-weight: normal;
+  font-style: italic;
+  src: url('./fonts/UbuntuMono-Italic.ttf') format('truetype');
+}
+
 
 /* COLOR SCHEME
 * Background: #fff;
